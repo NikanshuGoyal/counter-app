@@ -1,4 +1,9 @@
 {
+      "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+     ] 
+}
+{
     "version": 2,
      "name": "music-album",
     "builds": [
@@ -7,9 +12,7 @@
     "routes": [
        { "src": "/(.*)", "dest": "/app.js" }
     ],
-     "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-     ] 
+   
  }
 
 
